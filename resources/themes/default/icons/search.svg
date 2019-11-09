@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="289.12228"
+   height="288.29651"
+   id="svg12215">
+  <defs
+     id="defs12217">
+    <linearGradient
+       id="linearGradient12975">
+      <stop
+         id="stop12977"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop12979"
+         style="stop-color:#d2d5d8;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter12971">
+      <feGaussianBlur
+         id="feGaussianBlur12973"
+         stdDeviation="3.2250001" />
+    </filter>
+    <linearGradient
+       x1="-113.21428"
+       y1="601.64789"
+       x2="-144.28572"
+       y2="700.20581"
+       id="linearGradient12981"
+       xlink:href="#linearGradient12975"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(4.7719882,0,0,4.7719882,896.75599,-2714.7514)" />
+  </defs>
+  <metadata
+     id="metadata12220">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sergio Luiz Araujo Silva</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>search</rdf:li>
+            <rdf:li>icons</rdf:li>
+            <rdf:li>informatic</rdf:li>
+            <rdf:li>computer</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-222.43118,-161.63093)"
+     id="layer1">
+    <path
+       d="m 254.93857,194.08554 c -43.27283,43.27286 -43.37829,114.15961 -0.1054,157.43243 36.66261,36.66262 93.20142,42.25004 135.92126,16.76609 l 76.34367,74.23473 c 10.50715,10.19807 27.08481,9.82166 37.11738,-0.84359 10.03268,-10.66507 9.76912,-27.44662 -0.73813,-37.6446 l -75.18377,-72.86388 c 26.36127,-42.84677 21.00848,-100.04473 -16.02794,-137.08118 -43.27286,-43.27282 -114.05419,-43.27282 -157.32701,0 z m 31.73954,31.7396 c 26.10172,-26.10174 67.7462,-26.10174 93.84788,0 26.10172,26.10168 26.10172,67.74615 0,93.84783 -26.10168,26.10172 -67.74616,26.10172 -93.84788,0 -26.10168,-26.10168 -26.10168,-67.74615 0,-93.84783 z"
+       id="path12423"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:9.75617313;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:'.PhonepadTwo';-inkscape-font-specification:'.PhonepadTwo'" />
+  </g>
+</svg>

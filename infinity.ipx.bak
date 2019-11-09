@@ -1,0 +1,22 @@
+<Document>
+      <meta>
+        <software-name>infinity</software-name>
+        <software-version>0.19</software-version>
+        <software-date>17 August 2014</software-date>
+        <document-uri>file:/C:/Maet/Projects/Scala/quuux/Infinity/infinity.ipx</document-uri>
+        <document-time>1411957430394</document-time>
+      </meta>
+      <Object><kind>Root</kind><uid>6dce52ab-5026-4f19-b36d-374b24881630</uid><offset>275.55792236328125,135.53761291503906</offset><bounds>-9996.5,-9996.5,19993.0,19993.0</bounds><paint>255,255,255,255</paint><scale>0.5403600931167603</scale></Object><Object><kind>Text</kind><uid>69c896e3-e0a3-416a-b0fd-5f143a9484e6</uid><offset>484.0,348.0</offset><bounds>0.0,0.0,146.0,102.0</bounds><parent>6dce52ab-5026-4f19-b36d-374b24881630</parent><level>title</level><text xml:space="preserve">Title</text></Object><Object><kind>ImageLink</kind><uid>26ebfdfd-731d-41b9-9209-3ab6d2bb74bc</uid><offset>30.0,30.0</offset><bounds>0.0,0.0,373.09063720703125,131.2134246826172</bounds><pinned>true</pinned><scale>0.25</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/resources/themes/default/logo.svg</uri-absolute><uri-relative>resources/themes/default/logo.svg</uri-relative></Object><presentation><views><view>
+        <name xml:space="preserve">View-1</name>
+        <x>-257.76735918157726</x><y>-155.61272487731748</y><scale>0.8912750154105424</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">View-2</name>
+        <x>275.55791442309015</x><y>135.53761173473367</y><scale>0.5403600876626342</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">View-3</name>
+        <x>1001.7551116487472</x><y>490.6722744599349</y><scale>0.40030331997422763</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view></views></presentation>
+    </Document>

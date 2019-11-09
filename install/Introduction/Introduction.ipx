@@ -1,0 +1,270 @@
+<Document>
+      <meta>
+        <software-name>infinity</software-name>
+        <software-version>0.19</software-version>
+        <software-date>17 August 2014</software-date>
+        <document-uri>file:/C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/Introduction.ipx</document-uri>
+        <document-time>1411957387115</document-time>
+      </meta>
+      <Object><kind>Root</kind><uid>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</uid><offset>-1049.3180809085616,-2286.858260051124</offset><bounds>-831.8165283203125,-366.77178955078125,4672.0859375,3757.221923828125</bounds><paint>255,255,255,255</paint><scale>1.3099509269618466</scale></Object><Object><kind>TextLink</kind><uid>28b8e862-9f44-4b80-8285-b359610f0b19</uid><offset>1784.6163330078125,1501.8472900390625</offset><bounds>0.0,0.0,1484.0,444.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.5987369418144226</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/../Infinity.properties</uri-absolute><uri-relative>../Infinity.properties</uri-relative></Object><Object><kind>Text</kind><uid>827d2db5-812a-4363-819c-28f7a2e80fd1</uid><offset>481.61956787109375,920.6784057617188</offset><bounds>0.0,0.0,314.0,142.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">- complex formulas are no problem
+- formulas are entered and edited in LaTeX
+- open the context menu and click on' edit'
+  to show or hide the editor underneath
+  the formula
+</text></Object><Object><kind>ImageLink</kind><uid>e5823d80-9a6f-465e-8b9f-d015d97cd11f</uid><offset>-227.0293426513672,2039.900634765625</offset><bounds>0.0,0.0,768.0,576.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.6421797275543213</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/normal.svg</uri-absolute><uri-relative>pic/normal.svg</uri-relative></Object><Object><kind>Code</kind><uid>1ed82924-489c-48a8-ac70-67c79100aade</uid><offset>-518.373046875,1979.9398193359375</offset><bounds>0.0,0.0,654.0,186.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><code xml:space="preserve">from pylab import *
+def N(mu,sigma):
+  return lambda x: 1.0/(sigma*sqrt(2*pi))*exp((-(x-mu)**2)/(2*sigma**2))
+xs = linspace(-5,5,100)
+for sigma in [0.5,1.0,2.0]:
+    plot(xs, N(0,sigma)(xs), '.-')
+savefig(&quot;pic/normal.svg&quot;)
+#show()
+print(&quot;done&quot;)</code><syntax>python</syntax><application>Python</application></Object><Object><kind>Text</kind><uid>0e989f50-6d07-4c5f-983a-0e9d6f65da47</uid><offset>41.13589096069336,607.9637451171875</offset><bounds>0.0,0.0,201.0,119.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">similarily the context menu
+can be moved around by
+pressing the mouse wheel
+and holding CTRL
+</text></Object><Object><kind>ImageLink</kind><uid>7bc9cd6a-b643-434a-9add-76e177bf1173</uid><offset>-47.4862254672365,613.139508933052</offset><bounds>0.0,0.0,238.0,239.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.28088196777440544</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/menu_document.png</uri-absolute><uri-relative>pic/menu_document.png</uri-relative></Object><Object><kind>Text</kind><uid>6e6be3f1-ed20-46e2-ba79-dda5ab5a2bd2</uid><offset>-32.4821662902832,484.1062316894531</offset><bounds>0.0,0.0,257.0,96.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">all objects can be scaled 
+even the context menu
+open the context menu (right click)
+and the use the mouse wheel</text></Object><Object><kind>Text</kind><uid>386506ad-28de-4cba-935d-a2414a1dbcad</uid><offset>-549.125732421875,1741.19580078125</offset><bounds>0.0,0.0,111.0,73.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">zoom in to see
+the difference
+</text></Object><Object><kind>Text</kind><uid>c05052be-77b5-4c44-8f49-0e851191788d</uid><offset>-518.1231689453125,2243.24853515625</offset><bounds>0.0,0.0,281.0,50.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.9975000023841858</scale><level>text</level><text xml:space="preserve">if code is changed, image updates   --&gt;
+</text></Object><Object><kind>Text</kind><uid>74511562-387e-4716-9cfb-6ed9e4c468a6</uid><offset>-124.03961944580078,1726.115966796875</offset><bounds>0.0,0.0,156.0,50.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">&lt;-- PNG raster image
+</text></Object><Object><kind>ImageLink</kind><uid>f35e7ea7-c4ca-451d-9b9d-94b630b2a05c</uid><offset>-375.32159423828125,1775.59130859375</offset><bounds>0.0,0.0,373.09063720703125,132.77772521972656</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.4914674758911133</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/logo.svg</uri-absolute><uri-relative>pic/logo.svg</uri-relative></Object><Object><kind>ImageLink</kind><uid>d1ac61cf-9b97-4c06-9343-5d5fe186e5c4</uid><offset>-374.58624267578125,1700.670654296875</offset><bounds>0.0,0.0,368.0,132.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.5529167652130127</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/logo.png</uri-absolute><uri-relative>pic/logo.png</uri-relative></Object><Object><kind>Text</kind><uid>b6daa4b8-143f-4884-9685-30da6a0ce72d</uid><offset>-375.7694396972656,1522.5242919921875</offset><bounds>0.0,0.0,333.0,165.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">- links to images can be added to a document
+- PNG, GIF, JPEG and SVG are supported
+- images are synchronized
+  (if image file changes the picture changes) 
+- open the context menu and click on 'open'
+  to open the registerd image viewer/editor
+</text></Object><Object><kind>Text</kind><uid>a49f493b-ccc0-4a7a-b10f-7f67d50fad28</uid><offset>-376.4190368652344,1472.0263671875</offset><bounds>0.0,0.0,119.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>subtitle</level><text xml:space="preserve">images</text></Object><Object><kind>Group</kind><uid>98343f7c-8598-48fa-8692-5685c9ddd494</uid><offset>964.7811279296875,1846.434814453125</offset><bounds>0.0,0.0,660.3016967773438,415.3201904296875</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><paint>255,255,255,255</paint><label x="5.0" y="5.0" scale="1.0">this a group. you can edit this textt</label><open>true</open><opened-bounds>0.0,0.0,660.3016967773438,415.3201904296875</opened-bounds><closed-bounds>0.0,0.0,660.3016967773438,30.0</closed-bounds></Object><Object><kind>Group</kind><uid>7a958bbc-c7d9-4b73-87f6-6af5b27002d5</uid><offset>358.5281066894531,222.0022430419922</offset><bounds>0.0,0.0,145.44583129882812,30.0</bounds><parent>98343f7c-8598-48fa-8692-5685c9ddd494</parent><paint>255,255,255,255</paint><label x="5.0" y="5.0" scale="1.0">some math</label><open>false</open><opened-bounds>0.0,0.0,145.44583129882812,135.539306640625</opened-bounds><closed-bounds>0.0,0.0,145.44583129882812,30.0</closed-bounds></Object><Object><kind>Formula</kind><uid>aa1d993e-2650-4c79-9bdf-f21724fbde32</uid><offset>22.03448486328125,61.94993209838867</offset><bounds>0.0,0.0,99.0,66.0</bounds><parent>7a958bbc-c7d9-4b73-87f6-6af5b27002d5</parent><latex xml:space="preserve">y = \frac{1}{n}\sum_i^n x_i</latex><edit>false</edit></Object><Object><kind>Text</kind><uid>f4dd901a-4021-4dd6-b00b-bc5ba29ecb5b</uid><offset>20.742429733276367,37.671539306640625</offset><bounds>0.0,0.0,380.0,102.0</bounds><parent>7a958bbc-c7d9-4b73-87f6-6af5b27002d5</parent><scale>0.2614366114139557</scale><level>title</level><text xml:space="preserve">mean value</text></Object><Object><kind>Text</kind><uid>69e9e876-54ca-4551-963f-6e21d958bd13</uid><offset>165.670654296875,32.76993942260742</offset><bounds>0.0,0.0,116.0,54.0</bounds><parent>98343f7c-8598-48fa-8692-5685c9ddd494</parent><level>subtitle</level><text xml:space="preserve">groups</text></Object><Object><kind>Text</kind><uid>bfe43da8-ea5f-4e93-a888-866c05e8a20e</uid><offset>164.6365203857422,93.67577362060547</offset><bounds>0.0,0.0,318.0,96.0</bounds><parent>98343f7c-8598-48fa-8692-5685c9ddd494</parent><scale>0.9975000023841858</scale><level>text</level><text xml:space="preserve">- you can groups and un-groups objects
+- for instance to move them around quickly
+- groups can be closed and opened
+- note that you can edit the group label</text></Object><Object><kind>Text</kind><uid>b60eff51-39ed-4774-847b-580b6dcc4bc3</uid><offset>520.3831176757812,222.47825622558594</offset><bounds>0.0,0.0,119.0,27.0</bounds><parent>98343f7c-8598-48fa-8692-5685c9ddd494</parent><level>text</level><text xml:space="preserve">&lt;= closed group</text></Object><Object><kind>Group</kind><uid>0f2bd78d-3eb6-431d-a94f-9f06a4f62733</uid><offset>172.97044372558594,220.86785888671875</offset><bounds>0.0,0.0,145.44583129882812,135.539306640625</bounds><parent>98343f7c-8598-48fa-8692-5685c9ddd494</parent><paint>255,255,255,255</paint><label x="5.0" y="5.0" scale="1.0">some math</label><open>true</open><opened-bounds>0.0,0.0,145.44583129882812,135.539306640625</opened-bounds><closed-bounds>0.0,0.0,145.44583129882812,30.0</closed-bounds></Object><Object><kind>Formula</kind><uid>60becea7-b990-463e-959f-4bf1cc0b396d</uid><offset>22.03448486328125,61.94993209838867</offset><bounds>0.0,0.0,99.0,66.0</bounds><parent>0f2bd78d-3eb6-431d-a94f-9f06a4f62733</parent><latex xml:space="preserve">y = \frac{1}{n}\sum_i^n x_i</latex><edit>false</edit></Object><Object><kind>Text</kind><uid>13fc187f-309e-4a13-bb54-d3e07917b194</uid><offset>20.742429733276367,37.671539306640625</offset><bounds>0.0,0.0,380.0,102.0</bounds><parent>0f2bd78d-3eb6-431d-a94f-9f06a4f62733</parent><scale>0.2614366114139557</scale><level>title</level><text xml:space="preserve">mean value</text></Object><Object><kind>Text</kind><uid>040e25e4-91d9-4ada-acbe-2ada630e3b4d</uid><offset>34.31459045410156,272.8953857421875</offset><bounds>0.0,0.0,109.0,27.0</bounds><parent>98343f7c-8598-48fa-8692-5685c9ddd494</parent><level>text</level><text xml:space="preserve">open group =&gt;</text></Object><Object><kind>Code</kind><uid>a2a6e2f1-1ba1-4898-ba3d-6a06ca097f2e</uid><offset>2432.524169921875,1275.645751953125</offset><bounds>0.0,0.0,177.0,46.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><code xml:space="preserve"># some ruby code
+puts &quot;This is Ruby&quot;</code><syntax>ruby</syntax><application>Ruby</application></Object><Object><kind>Output</kind><uid>e9e6b4c9-fd02-4557-9650-86ce7acafae7</uid><offset>3.0,46.0</offset><bounds>0.0,0.0,112.16015625,19.9052734375</bounds><parent>a2a6e2f1-1ba1-4898-ba3d-6a06ca097f2e</parent><paint>255,255,200,255</paint><channel>stdout</channel><text xml:space="preserve">This is Ruby
+</text></Object><Object><kind>ImageLink</kind><uid>5d8f0b6b-394d-424c-8fcd-1fb54be997be</uid><offset>1939.06689453125,1257.2867431640625</offset><bounds>0.0,0.0,237.0,238.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.4401266574859619</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/menu_code.png</uri-absolute><uri-relative>pic/menu_code.png</uri-relative></Object><Object><kind>Text</kind><uid>52f82763-6cbd-4c7d-8386-a399f8b95b44</uid><offset>1778.3538818359375,1432.0970458984375</offset><bounds>0.0,0.0,410.0,50.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">- various programming languages are supported but the 
+  paths in infinity.properties need to be set correctly</text></Object><Object><kind>Text</kind><uid>12c74c71-531d-4559-b8ce-f3c5a477bf8a</uid><offset>1776.9439697265625,1195.1434326171875</offset><bounds>0.0,0.0,184.0,73.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">- code can be executed
+- open the context menu
+  and click on 'run'</text></Object><Object><kind>Code</kind><uid>8f32f297-e0ca-4a64-8ca8-0d5ad44c5f6f</uid><offset>2355.783447265625,1418.6148681640625</offset><bounds>0.0,0.0,177.0,46.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><code xml:space="preserve">; some clojure code
+(print &quot;clojure&quot;) </code><syntax>clojure</syntax><application>Clojure</application></Object><Object><kind>Output</kind><uid>681dcdec-80cb-4178-9d28-b583e070b68f</uid><offset>3.0,46.0</offset><bounds>0.0,0.0,65.4267578125,19.9052734375</bounds><parent>8f32f297-e0ca-4a64-8ca8-0d5ad44c5f6f</parent><paint>255,255,200,255</paint><channel>stdout</channel><text xml:space="preserve">clojure</text></Object><Object><kind>Code</kind><uid>219843b4-08ea-4fbe-ba44-28158601bfb4</uid><offset>2101.931640625,1188.9610595703125</offset><bounds>0.0,0.0,249.0,86.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><code xml:space="preserve">#some example code
+#feel free to change it
+for i in range(5):
+    print('infinity %d'% i)</code><syntax>python</syntax><application>Jython</application></Object><Object><kind>Output</kind><uid>9b8a4e00-32e1-4f4f-ba5c-c7761271e696</uid><offset>2.080951452255249,92.43334197998047</offset><bounds>0.0,0.0,93.466796875,99.5263671875</bounds><parent>219843b4-08ea-4fbe-ba44-28158601bfb4</parent><paint>255,255,200,255</paint><channel>stdout</channel><text xml:space="preserve">infinity 0
+infinity 1
+infinity 2
+infinity 3
+infinity 4
+</text></Object><Object><kind>Text</kind><uid>2e2d0697-c75e-4182-ad12-76fdc0daf8af</uid><offset>1775.89208984375,1122.234130859375</offset><bounds>0.0,0.0,229.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>subtitle</level><text xml:space="preserve">code snippets</text></Object><Object><kind>Text</kind><uid>93772fe5-67a2-4c74-93ec-e2e1e6517b6c</uid><offset>3357.6455078125,725.1331787109375</offset><bounds>0.0,0.0,146.0,102.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>title</level><text xml:space="preserve">Title</text></Object><Object><kind>Text</kind><uid>bcc7048f-2afa-4017-96dc-8d7459aea847</uid><offset>11.739572525024414,105.6561508178711</offset><bounds>0.0,0.0,128.0,54.0</bounds><parent>93772fe5-67a2-4c74-93ec-e2e1e6517b6c</parent><level>subtitle</level><text xml:space="preserve">Subtitle</text></Object><Object><kind>Text</kind><uid>cac2dcf5-9e58-4c37-9015-13fcf33732a6</uid><offset>6.705747068735946E-14,72.39403533935547</offset><bounds>0.0,0.0,186.0,54.0</bounds><parent>bcc7048f-2afa-4017-96dc-8d7459aea847</parent><level>subtitle</level><text xml:space="preserve">Subsubtitle</text></Object><Object><kind>ImageLink</kind><uid>de4c8630-5001-45e1-9bc0-9bc2dad1e553</uid><offset>783.8575439453125,994.2496337890625</offset><bounds>0.0,0.0,238.0,238.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.40644460916519165</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/menu_formula.png</uri-absolute><uri-relative>pic/menu_formula.png</uri-relative></Object><Object><kind>ImageLink</kind><uid>eb593ac4-5c93-4b18-b0c6-561779d6dca5</uid><offset>858.6630859375,-3.837214469909668</offset><bounds>0.0,0.0,373.09063720703125,132.77772521972656</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.8121174573898315</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/logo.svg</uri-absolute><uri-relative>pic/logo.svg</uri-relative></Object><Object><kind>Text</kind><uid>db4d8c7a-96c4-41e3-aaad-798a6c3ad03e</uid><offset>589.0389404296875,-154.4959259033203</offset><bounds>0.0,0.0,221.0,27.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>2.884376287460327</scale><level>text</level><text xml:space="preserve">Hi, this is a quick introduction </text></Object><Object><kind>Text</kind><uid>42c71839-a572-4c47-93d4-08c589bdd0c6</uid><offset>481.09930419921875,860.0230712890625</offset><bounds>0.0,0.0,148.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>subtitle</level><text xml:space="preserve">formulas</text></Object><Object><kind>Formula</kind><uid>515e7899-05c1-42cb-8d27-b8c486d99583</uid><offset>918.2279052734375,896.0137939453125</offset><bounds>0.0,0.0,81.0,66.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>2.3509747982025146</scale><latex xml:space="preserve">y = \prod_i^n x_i</latex><edit>true</edit></Object><Object><kind>Formula</kind><uid>55488423-5046-4288-9c1f-8662390e21de</uid><offset>952.3773803710938,1234.180419921875</offset><bounds>0.0,0.0,198.0,96.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><latex xml:space="preserve">\underbrack{p(y|\bold{x})}_\text{posterior} = 
+\frac{\overbrack{p(\bold{x}|y)}^\text{likelihood} \cdot 
+\overbrack{p(y)}^\text{prior}}
+{\underbrack{p(\bold{x})}_\text{evidence}}</latex><edit>true</edit></Object><Object><kind>Formula</kind><uid>43ee5658-6017-47a9-b1e2-4ec3b4fce9d9</uid><offset>465.0688171386719,1142.8455810546875</offset><bounds>0.0,0.0,402.0,184.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><latex xml:space="preserve">\newcommand{\ve}[1] {\bold{#1}}
+\newcommand{\sprod}[2] {\ve{#1}^T\ve{#2}}
+\newcommand{\maximum}[1] {\underset{#1}{\mathop{\rm max}}\:}  
+\begin{split}
+   &amp; { \maximum{\ve{\alpha}}{\ L(\ve{\alpha})} = \sum_{i=1}^N \alpha_i -
+              \frac{1}{2} \sum_{i,j=1}^N \alpha_i \alpha_j\, y_i y_j\,
+              {\ve{x}_i}^T \ve{x}_j } \\
+   &amp; { \text{subject to }
+       \begin{cases}
+         \,\sum_{i=1}^N \alpha_i y_i = 0  \\
+         \,0 \leq \alpha_i \leq C \ \ \text{for}\ \forall i.
+       \end{cases}
+     }
+  \end{split}</latex><edit>false</edit></Object><Object><kind>Link</kind><uid>5948ccb1-32fd-4077-9b1f-276a6c210620</uid><offset>280.45465087890625,1077.416259765625</offset><bounds>0.0,0.0,414.0,70.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.6634204387664795</scale><uri>http://en.wikibooks.org/wiki/LaTeX/Mathematics</uri><label>This is a weblink to LaTeX
+Open the context menu (right click) 
+and click on 'open' to go to the web page</label><edit>false</edit></Object><Object><kind>Text</kind><uid>65265ef6-c641-4355-9bbd-01b601ca3bb0</uid><offset>2685.12109375,337.90496826171875</offset><bounds>0.0,0.0,201.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>subtitle</level><text xml:space="preserve">scene graph</text></Object><Object><kind>Text</kind><uid>0808eb4b-befd-4258-bea5-7878f3e847c0</uid><offset>2685.9921875,410.81268310546875</offset><bounds>0.0,0.0,345.0,326.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">- objects are arranged in a scene graph
+  with parents and childs
+
+- look at the examples to the right and left
+  - move parent and all the childs move
+  - move child2 and child3 and child4 move
+
+- to create a parent-child relationship
+  simply add an object on top of another object
+
+- this works for all objects, even code
+  - but code has a special function
+  - run the parent and the child code below
+  - you get the idea</text></Object><Object><kind>Text</kind><uid>ff03f5ee-012f-4597-8cc8-08fc6b96f54a</uid><offset>3104.183349609375,378.18743896484375</offset><bounds>0.0,0.0,221.0,102.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>title</level><text xml:space="preserve">parent</text></Object><Object><kind>Text</kind><uid>12d37087-5c8c-4297-8116-0fe47d0a6769</uid><offset>-8.057219505310059,105.19763946533203</offset><bounds>0.0,0.0,101.0,54.0</bounds><parent>ff03f5ee-012f-4597-8cc8-08fc6b96f54a</parent><level>subtitle</level><text xml:space="preserve">child1</text></Object><Object><kind>Text</kind><uid>87b7d0e3-e0ab-44aa-8d77-c9233b6fe3cf</uid><offset>168.05491638183594,105.19763946533203</offset><bounds>0.0,0.0,101.0,54.0</bounds><parent>ff03f5ee-012f-4597-8cc8-08fc6b96f54a</parent><level>subtitle</level><text xml:space="preserve">child2</text></Object><Object><kind>Text</kind><uid>6145efb2-a066-4641-b0ca-aeea3849cdaf</uid><offset>-15.40937328338623,74.19799041748047</offset><bounds>0.0,0.0,101.0,54.0</bounds><parent>87b7d0e3-e0ab-44aa-8d77-c9233b6fe3cf</parent><scale>0.5732234716415405</scale><level>subtitle</level><text xml:space="preserve">child3</text></Object><Object><kind>Text</kind><uid>35b4a2df-097f-446e-808f-fbe69ae6792c</uid><offset>75.3145980834961,75.75841522216797</offset><bounds>0.0,0.0,101.0,54.0</bounds><parent>87b7d0e3-e0ab-44aa-8d77-c9233b6fe3cf</parent><scale>0.5055556893348694</scale><level>subtitle</level><text xml:space="preserve">child4</text></Object><Object><kind>Rectangle</kind><uid>85711ccf-0e3d-41bf-a7a4-5a5e1af0be61</uid><offset>2517.89892578125,515.3368530273438</offset><bounds>-29.5,-29.5,59.0,59.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><paint>250,250,250,255</paint><scale>2.103668451309204</scale></Object><Object><kind>Text</kind><uid>90527dcc-c111-4631-b6b8-41464dbc2016</uid><offset>-40.4416389465332,-43.76979446411133</offset><bounds>0.0,0.0,52.0,27.0</bounds><parent>85711ccf-0e3d-41bf-a7a4-5a5e1af0be61</parent><scale>0.6983373165130615</scale><level>text</level><text xml:space="preserve">parent</text></Object><Object><kind>Rectangle</kind><uid>2823b3fb-45d4-41c5-9307-e3cd2159c4f6</uid><offset>-21.41071319580078,4.2516703605651855</offset><bounds>-29.5,-29.5,59.0,59.0</bounds><parent>85711ccf-0e3d-41bf-a7a4-5a5e1af0be61</parent><paint>250,250,250,255</paint><scale>0.4066374599933624</scale></Object><Object><kind>Text</kind><uid>0a9c0516-702c-4161-83b8-1512dfb94fc1</uid><offset>-35.36113739013672,-41.4876594543457</offset><bounds>0.0,0.0,47.0,27.0</bounds><parent>2823b3fb-45d4-41c5-9307-e3cd2159c4f6</parent><scale>0.949999988079071</scale><level>text</level><text xml:space="preserve">child1</text></Object><Object><kind>Rectangle</kind><uid>23fc37fc-bc17-4ada-a076-5795af1e8d17</uid><offset>21.468950271606445,4.406790256500244</offset><bounds>-29.0,-29.0,58.0,58.0</bounds><parent>85711ccf-0e3d-41bf-a7a4-5a5e1af0be61</parent><paint>250,250,250,255</paint><scale>0.40460681915283203</scale></Object><Object><kind>Text</kind><uid>f6d4f0b2-4740-414b-bd5a-d5108ba0ead7</uid><offset>-37.06550216674805,-41.00127029418945</offset><bounds>0.0,0.0,47.0,27.0</bounds><parent>23fc37fc-bc17-4ada-a076-5795af1e8d17</parent><scale>0.949999988079071</scale><level>text</level><text xml:space="preserve">child2</text></Object><Object><kind>Rectangle</kind><uid>3f187377-7fc3-4ba9-8d59-5544c93d2949</uid><offset>-21.795913696289062,8.60863971710205</offset><bounds>-29.5,-29.5,59.0,59.0</bounds><parent>23fc37fc-bc17-4ada-a076-5795af1e8d17</parent><paint>250,250,250,255</paint><scale>0.34288570284843445</scale></Object><Object><kind>Text</kind><uid>a86f2098-b35c-43b4-9f2b-3c69a6d18fa4</uid><offset>-27.309581756591797,-14.320855140686035</offset><bounds>0.0,0.0,47.0,27.0</bounds><parent>3f187377-7fc3-4ba9-8d59-5544c93d2949</parent><level>text</level><text xml:space="preserve">child3</text></Object><Object><kind>Rectangle</kind><uid>85b72609-f75c-4456-9a25-e35c9b04b6c6</uid><offset>21.0563907623291,8.46619701385498</offset><bounds>-29.0,-29.0,58.0,58.0</bounds><parent>23fc37fc-bc17-4ada-a076-5795af1e8d17</parent><paint>250,250,250,255</paint><scale>0.34288570284843445</scale></Object><Object><kind>Text</kind><uid>fd636f6e-6ca0-484f-ae76-8812aec0b25a</uid><offset>-27.309581756591797,-14.320855140686035</offset><bounds>0.0,0.0,47.0,27.0</bounds><parent>85b72609-f75c-4456-9a25-e35c9b04b6c6</parent><level>text</level><text xml:space="preserve">child4</text></Object><Object><kind>Code</kind><uid>ebb95dde-cc73-4e8f-9478-6d62851a00c2</uid><offset>2780.28125,794.6510009765625</offset><bounds>0.0,0.0,186.0,46.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><code xml:space="preserve"># this is the parent
+print 'parent'</code><syntax>python</syntax><application>Python</application></Object><Object><kind>Code</kind><uid>502cf2a9-be47-4473-b486-20bbdbe32b1f</uid><offset>-71.33821105957031,82.93067169189453</offset><bounds>0.0,0.0,159.0,46.0</bounds><parent>ebb95dde-cc73-4e8f-9478-6d62851a00c2</parent><code xml:space="preserve"># this is a child
+print 'child1'</code><syntax>python</syntax><application>Python</application></Object><Object><kind>Output</kind><uid>a55aefa4-6272-4c5c-90e9-3ed63a150ec9</uid><offset>3.0,46.0</offset><bounds>0.0,0.0,56.080078125,39.810546875</bounds><parent>502cf2a9-be47-4473-b486-20bbdbe32b1f</parent><paint>255,255,200,255</paint><channel>stdout</channel><text xml:space="preserve">parent
+child1
+</text></Object><Object><kind>Code</kind><uid>fa3708d5-0f59-4216-adfa-a7ae227efc69</uid><offset>167.65087890625,81.40512084960938</offset><bounds>0.0,0.0,141.0,46.0</bounds><parent>ebb95dde-cc73-4e8f-9478-6d62851a00c2</parent><code xml:space="preserve"># another child
+print 'child2'</code><syntax>python</syntax><application>Python</application></Object><Object><kind>Output</kind><uid>042c7d7a-ce8f-4713-bb27-fe0a25663d26</uid><offset>3.0,46.0</offset><bounds>0.0,0.0,56.080078125,39.810546875</bounds><parent>fa3708d5-0f59-4216-adfa-a7ae227efc69</parent><paint>255,255,200,255</paint><channel>stdout</channel><text xml:space="preserve">parent
+child2
+</text></Object><Object><kind>Output</kind><uid>3bc8e6b2-d63f-4b11-8651-f1c26214e98a</uid><offset>3.0,46.0</offset><bounds>0.0,0.0,56.080078125,19.9052734375</bounds><parent>ebb95dde-cc73-4e8f-9478-6d62851a00c2</parent><paint>255,255,200,255</paint><channel>stdout</channel><text xml:space="preserve">parent
+</text></Object><Object><kind>Text</kind><uid>d8707845-42dd-4ee9-a69f-a3daf3d35338</uid><offset>2709.631103515625,974.5756225585938</offset><bounds>0.0,0.0,387.0,50.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.7737809419631958</scale><level>text</level><text xml:space="preserve">this works only when the python path is set correctly
+(currently doesn't work with Jython or Java)</text></Object><Object><kind>Text</kind><uid>4082543f-375d-465d-85f1-7dd7db61ed61</uid><offset>2307.882080078125,1998.1004638671875</offset><bounds>0.0,0.0,77.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>subtitle</level><text xml:space="preserve">links</text></Object><Object><kind>Text</kind><uid>7f06128e-0379-408f-a76f-135455ea1e2a</uid><offset>2309.30810546875,2064.57421875</offset><bounds>0.0,0.0,413.0,96.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>1.0499999523162842</scale><level>text</level><text xml:space="preserve">- links can refer to anything files, executables, webpages
+- to follow a link open the context menu and click 'open'
+- a link has a label and a URI (= path to a resource)
+- use 'edit' to hide/show and edit the URI</text></Object><Object><kind>Text</kind><uid>571deeee-45f7-4028-a4d9-5da93a8beaff</uid><offset>3191.52783203125,1357.42236328125</offset><bounds>0.0,0.0,294.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>subtitle</level><text xml:space="preserve">synchronized files</text></Object><Object><kind>Text</kind><uid>29b2e827-56e2-450a-91a4-291a2ad1677f</uid><offset>3470.87060546875,1611.6468505859375</offset><bounds>0.0,0.0,234.0,27.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">&lt;-- another link to the same file</text></Object><Object><kind>TextLink</kind><uid>e0988e4b-1437-42a1-a59e-67a817acb3e6</uid><offset>3363.92724609375,1572.8922119140625</offset><bounds>0.0,0.0,44.0,114.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/files/text.txt</uri-absolute><uri-relative>files/text.txt</uri-relative></Object><Object><kind>TextLink</kind><uid>3c7b9f07-3138-49de-98da-0b0e537a719e</uid><offset>3204.88232421875,1575.00732421875</offset><bounds>0.0,0.0,44.0,114.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/files/text.txt</uri-absolute><uri-relative>files/text.txt</uri-relative></Object><Object><kind>Text</kind><uid>04f393ec-f40c-4f62-a8bb-23c784a347a3</uid><offset>3191.257080078125,1426.2974853515625</offset><bounds>0.0,0.0,325.0,119.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.9975000023841858</scale><level>text</level><text xml:space="preserve">- file links (and image links) are synchronized
+- if you edit one of files shown below
+  the other one gets updated as soon as 
+  you save the file object (CTRL-S)
+</text></Object><Object><kind>Text</kind><uid>c4fd1b14-808e-436f-a7d6-54264b94f9e9</uid><offset>2978.4267578125,1610.96240234375</offset><bounds>0.0,0.0,176.0,27.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">this is a link to a file  --&gt;</text></Object><Object><kind>TextLink</kind><uid>5508af15-ef56-41c0-98ac-8acdbf23c93d</uid><offset>3316.74365234375,2057.3896484375</offset><bounds>0.0,0.0,194.0,26.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/files/time.txt</uri-absolute><uri-relative>files/time.txt</uri-relative></Object><Object><kind>Text</kind><uid>c279b52f-7709-429c-b5cd-473720973425</uid><offset>3527.341064453125,2053.81640625</offset><bounds>0.0,0.0,217.0,73.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">&lt;-- link to synchronized file.
+      note that the file updates 
+      when the code is invoked</text></Object><Object><kind>Code</kind><uid>091923c2-97f6-4cc4-bf2e-be6b2c2749a6</uid><offset>3317.397705078125,1837.5648193359375</offset><bounds>0.0,0.0,420.0,166.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><code xml:space="preserve"># creates the current date and time
+# prints it and writes it to a file
+from time import gmtime, strftime
+time = strftime(&quot;%Y-%m-%d %H:%M:%S&quot;, gmtime())
+with open('files/time.txt','w') as f:
+    f.write(time)
+print(time)
+</code><syntax>python</syntax><application>Python</application></Object><Object><kind>Output</kind><uid>d6799321-4b10-4001-9d33-e2409a53ec3f</uid><offset>0.5829907655715942,158.24522399902344</offset><bounds>0.0,0.0,177.5869140625,19.9052734375</bounds><parent>091923c2-97f6-4cc4-bf2e-be6b2c2749a6</parent><paint>255,255,200,255</paint><channel>stdout</channel><text xml:space="preserve">2014-09-29 02:17:44
+</text></Object><Object><kind>Text</kind><uid>0afd89e7-f89d-4428-896a-964109d75d17</uid><offset>1012.1163330078125,106.72274017333984</offset><bounds>0.0,0.0,299.0,211.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>1.5320333242416382</scale><level>text</level><text xml:space="preserve">
+infinity is a presentation software for
+scientific or code-centric presentations.
+
+it allows you to arrange objects such as 
+text, images or code snippets freely on a
+zoomable canvas. have a look around ;-)
+
+</text></Object><Object><kind>ImageLink</kind><uid>28b8a054-8404-4251-ae18-ad8d1c2fc4c5</uid><offset>809.30224609375,248.25894165039062</offset><bounds>0.0,0.0,121.0,95.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.5249999761581421</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/mouse_wheel.png</uri-absolute><uri-relative>pic/mouse_wheel.png</uri-relative></Object><Object><kind>Text</kind><uid>eee33202-8368-4dfa-b076-c8e2714813fe</uid><offset>456.0091857910156,210.96009826660156</offset><bounds>0.0,0.0,102.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>subtitle</level><text xml:space="preserve">basics</text></Object><Object><kind>ImageLink</kind><uid>44c04f83-46c9-4a5b-a034-ef0ad7eabcc2</uid><offset>746.1094360351562,367.0068054199219</offset><bounds>0.0,0.0,238.0,239.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.3508618175983429</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/menu_document.png</uri-absolute><uri-relative>pic/menu_document.png</uri-relative></Object><Object><kind>ImageLink</kind><uid>0f608098-a44c-4f5a-8627-bd6ec8814272</uid><offset>878.7607421875,277.85980224609375</offset><bounds>0.0,0.0,122.0,95.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.5</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/mouse_move_middle.png</uri-absolute><uri-relative>pic/mouse_move_middle.png</uri-relative></Object><Object><kind>Text</kind><uid>eea067b6-2fa1-4939-8b8a-065d577b561f</uid><offset>457.2908935546875,246.17088317871094</offset><bounds>0.0,0.0,397.0,142.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.995006263256073</scale><level>text</level><text xml:space="preserve">
+1) rotate the mouse wheel to zoom in and out
+2) press the mouse wheel and move the mouse to pan
+3) press the right mouse button to open the menu
+    (click on the center item to close it)
+</text></Object><Object><kind>ImageLink</kind><uid>413f3f0b-1487-4cb7-ae8c-49e30755a190</uid><offset>841.217529296875,328.21356201171875</offset><bounds>0.0,0.0,121.0,95.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.5478087663650513</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/mouse_right.png</uri-absolute><uri-relative>pic/mouse_right.png</uri-relative></Object><Object><kind>Link</kind><uid>ffe23a87-8d06-47f8-acf4-80ae57c792a4</uid><offset>1012.3734741210938,375.5136413574219</offset><bounds>0.0,0.0,394.0,26.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>1.0421446561813354</scale><uri>http://www.quuux.com/infinity/tutorial.html</uri><label>for more info see the infinity tutorial</label><edit>true</edit></Object><Object><kind>Text</kind><uid>b81d3dbb-92c2-4113-a55a-06db4b8a7d6a</uid><offset>-32.72594451904297,424.15411376953125</offset><bounds>0.0,0.0,279.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>subtitle</level><text xml:space="preserve">scaling &amp; moving</text></Object><Object><kind>ImageLink</kind><uid>e3805dae-a751-4564-9ecf-a1d8a0ae35aa</uid><offset>252.88404876053627,491.57033551103547</offset><bounds>0.0,0.0,238.0,239.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.28734083195783455</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/menu_document.png</uri-absolute><uri-relative>pic/menu_document.png</uri-relative></Object><Object><kind>Text</kind><uid>8ede6908-d48d-4654-ba76-7aaea3cf9912</uid><offset>885.1901245117188,562.8246459960938</offset><bounds>0.0,0.0,122.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>subtitle</level><text xml:space="preserve">objects</text></Object><Object><kind>Text</kind><uid>4d859304-3bd7-472a-a908-9119cfe0fb3e</uid><offset>885.3997802734375,601.1116333007812</offset><bounds>0.0,0.0,268.0,234.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.9405355453491211</scale><level>text</level><text xml:space="preserve">
+all things on this canvas are objects.
+there are various types such as text,
+images, fomulas, links and especially
+code snippets.
+code snippets are cool because they
+can be executed  within infinity.
+move the mouse over an object an
+click the right mouse button to open
+its context menu.</text></Object><Object><kind>ImageLink</kind><uid>47a26207-d81f-48b5-82d6-7e271bdd7373</uid><offset>1599.32763671875,722.0557861328125</offset><bounds>0.0,0.0,157.0,238.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.26971277594566345</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/menu_text.png</uri-absolute><uri-relative>pic/menu_text.png</uri-relative></Object><Object><kind>ImageLink</kind><uid>b2666c9d-c1dd-4568-9599-3cecce0069d8</uid><offset>1764.533447265625,578.2332763671875</offset><bounds>0.0,0.0,120.0,94.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.5403600931167603</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/mouse_wheel_ctrl.png</uri-absolute><uri-relative>pic/mouse_wheel_ctrl.png</uri-relative></Object><Object><kind>Text</kind><uid>03127e0a-6246-479d-9164-502be4aea047</uid><offset>1389.1614990234375,487.48687744140625</offset><bounds>0.0,0.0,242.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>subtitle</level><text xml:space="preserve">handle objects</text></Object><Object><kind>Text</kind><uid>da2b0a4a-0e07-498c-bdb6-7a7a7fec52d7</uid><offset>1390.3760986328125,525.5272827148438</offset><bounds>0.0,0.0,394.0,211.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.9405355453491211</scale><level>text</level><text xml:space="preserve">
+0) move your mouse pointer over some object
+     (e.g. this text here)
+1) press the CTRL-key and rotate the mouse wheel to 
+     enlarge or shrink an object
+2) press the CTRL-key and press the mouse wheel to 
+     move an object around
+3) press the right mouse button to open the 
+     context menu for an object</text></Object><Object><kind>ImageLink</kind><uid>75df5f77-3b95-4198-82ee-dd8e3afdd8d6</uid><offset>1735.659423828125,534.9563598632812</offset><bounds>0.0,0.0,123.0,96.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.44354939460754395</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/mouse_move.png</uri-absolute><uri-relative>pic/mouse_move.png</uri-relative></Object><Object><kind>ImageLink</kind><uid>671b07e8-8bbb-49bf-bcba-7b08c1ca5329</uid><offset>1766.322021484375,627.5321044921875</offset><bounds>0.0,0.0,122.0,96.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.4914674758911133</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/mouse_move_middle_ctrl.png</uri-absolute><uri-relative>pic/mouse_move_middle_ctrl.png</uri-relative></Object><Object><kind>ImageLink</kind><uid>867ef802-c045-46e7-91ee-35e6e073048f</uid><offset>1697.61083984375,666.0623168945312</offset><bounds>0.0,0.0,121.0,95.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.6003799438476562</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/mouse_right.png</uri-absolute><uri-relative>pic/mouse_right.png</uri-relative></Object><Object><kind>Code</kind><uid>1d1a9301-1401-45db-8629-714ff3dbfe03</uid><offset>2566.6376953125,1479.692626953125</offset><bounds>0.0,0.0,321.0,46.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><code xml:space="preserve">// be patient, first run takes time
+println(&quot;scala for you&quot;) </code><syntax>scala</syntax><application>Scala</application></Object><Object><kind>Output</kind><uid>65524ddd-ab26-44ee-ad98-dd7ba002118b</uid><offset>3.0,46.0</offset><bounds>0.0,0.0,121.5068359375,19.9052734375</bounds><parent>1d1a9301-1401-45db-8629-714ff3dbfe03</parent><paint>255,255,200,255</paint><channel>stdout</channel><text xml:space="preserve">scala for you
+</text></Object><Object><kind>Code</kind><uid>06e77691-c433-402a-abc0-8da0d84749a0</uid><offset>2653.155029296875,1303.2008056640625</offset><bounds>0.0,0.0,384.0,126.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><code xml:space="preserve">// some java code
+public class Main {
+  public static void main(String[] args) {
+    System.out.println(&quot;java&quot;);
+  }
+} </code><syntax>java</syntax><application>Java</application></Object><Object><kind>Output</kind><uid>2fb93f19-3ffa-44ae-ad1e-388533e84f5a</uid><offset>3.0,126.0</offset><bounds>0.0,0.0,37.38671875,19.9052734375</bounds><parent>06e77691-c433-402a-abc0-8da0d84749a0</parent><paint>255,255,200,255</paint><channel>stdout</channel><text xml:space="preserve">java
+</text></Object><Object><kind>Text</kind><uid>a4a9b14c-eb16-4a5d-b774-a9229e242038</uid><offset>2463.9296875,1203.5133056640625</offset><bounds>0.0,0.0,403.0,50.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">the following Ruby and Clojure examples will not work 
+if the paths are not set correctl</text></Object><Object><kind>ImageLink</kind><uid>651a1d16-8df3-4efe-8526-cabbae93a176</uid><offset>157.2333221435547,1711.4810791015625</offset><bounds>0.0,0.0,498.77386474609375,500.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.7350918650627136</scale><uri-absolute>file:///C:/Maet/Projects/Scala/quuux/Infinity/install/Introduction/pic/tiger.svg</uri-absolute><uri-relative>pic/tiger.svg</uri-relative></Object><Object><kind>Link</kind><uid>945b202c-c56d-4d79-a0d5-b269a47a1600</uid><offset>2317.6298828125,2185.82958984375</offset><bounds>0.0,0.0,404.0,26.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><uri>http://www.google.com</uri><label>Link to a webpage: http://www.google.com</label><edit>true</edit></Object><Object><kind>Link</kind><uid>850edeee-afbc-442f-9034-2c405f148cd4</uid><offset>2317.480712890625,2234.154052734375</offset><bounds>0.0,0.0,354.0,26.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><uri>../../infinity.properties</uri><label>Link to a file: infinity.properties</label><edit>true</edit></Object><Object><kind>Link</kind><uid>b5ede317-e01a-447a-a758-9f3c8d3f7519</uid><offset>2315.95947265625,2281.904296875</offset><bounds>0.0,0.0,164.0,26.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><uri>pic/logo.png</uri><label>Link to an image</label><edit>true</edit></Object><Object><kind>Link</kind><uid>fb9daafe-6113-4c68-8cae-7ae0552ad119</uid><offset>2316.997802734375,2328.6806640625</offset><bounds>0.0,0.0,344.0,26.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><uri>cmd.exe</uri><label>Opens cmd.exe (only under Windows)</label><edit>true</edit></Object><Object><kind>Formula</kind><uid>054d5ce2-8752-4cb2-b0ea-2fe8390e5676</uid><offset>-133.60015869140625,2124.218017578125</offset><bounds>0.0,0.0,170.0,52.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.6700253486633301</scale><latex xml:space="preserve">
+      f(x) = \frac{1}{\sigma \sqrt{2 \pi}} 
+       e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+    </latex><edit>false</edit></Object><Object><kind>Text</kind><uid>fa512eea-dfe0-438a-869d-7935aae74223</uid><offset>-124.15044403076172,1805.2933349609375</offset><bounds>0.0,0.0,173.0,50.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">&lt;-- SVG vector graphics
+</text></Object><Object><kind>Text</kind><uid>a2d73160-3090-4c90-924f-f7a7134b95c5</uid><offset>3508.592529296875,3243.93359375</offset><bounds>0.0,0.0,274.0,96.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">- running out of space?
+- you can make the document bigger:
+   - context menu -&gt; settings -&gt; resize
+   - drag the handle to resize</text></Object><Object><kind>Text</kind><uid>e3cf3cef-3764-4f5e-a1b4-063c02ce10d5</uid><offset>3100.017333984375,2302.99169921875</offset><bounds>0.0,0.0,199.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>subtitle</level><text xml:space="preserve">drag &amp; drop</text></Object><Object><kind>Text</kind><uid>aabe6816-3e91-4f50-b4f0-edd839a2d0f9</uid><offset>3099.3916015625,2374.182861328125</offset><bounds>0.0,0.0,341.0,188.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">- use use drag and drop to copy objects
+  from other applications or the desktop
+  into an infinity document
+- if you drag a file (text or image) onto the
+  document a link the file will be inserted
+- if the linked file changes the document will
+  be updated automatically (synchronized files)
+</text></Object><Object><kind>Text</kind><uid>ed4a69e8-62d5-445e-9658-6493e34c6d6e</uid><offset>1715.72998046875,2400.623046875</offset><bounds>0.0,0.0,215.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>subtitle</level><text xml:space="preserve">copy &amp; paste</text></Object><Object><kind>Text</kind><uid>e5a744c9-e3a5-4ed9-a237-58b018ad89d9</uid><offset>1715.2384033203125,2476.47314453125</offset><bounds>0.0,0.0,378.0,96.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">- use CTRL-C and CTRL-P to copy and paste objects 
+  or entire groups of objects
+- note that the object must not have the cursor
+</text></Object><Object><kind>Text</kind><uid>9e6d2e59-9198-4112-bf9d-3c01350eda9e</uid><offset>614.7316284179688,378.9661865234375</offset><bounds>0.0,0.0,317.0,54.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>0.3097470700740814</scale><level>subtitle</level><text xml:space="preserve">keyboard shortcuts</text></Object><Object><kind>Text</kind><uid>4674c656-d22e-49fa-b4e6-cc16a9b87082</uid><offset>0.8441875576972961,56.19377899169922</offset><bounds>0.0,0.0,341.0,73.0</bounds><parent>9e6d2e59-9198-4112-bf9d-3c01350eda9e</parent><level>text</level><text xml:space="preserve">- press CTRL-5 to open the context menu
+- press CTRL and the number of the item
+- for instance CTRL-57 will print this document</text></Object><Object><kind>Text</kind><uid>de649393-cb94-45ee-9ecd-dd89fcb5716d</uid><offset>1510.602294921875,1589.416015625</offset><bounds>0.0,0.0,272.0,73.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><level>text</level><text xml:space="preserve">this is a link to the config file       ----&gt;
+you can edit it but you need to
+restart infinity to take effect</text></Object><Object><kind>Text</kind><uid>2ebc8783-9437-4782-bd2f-1fa82a55e70d</uid><offset>1358.2230224609375,2965.06494140625</offset><bounds>0.0,0.0,255.0,102.0</bounds><parent>5384c9ff-c4ce-4bff-b25a-9fa70cc0873d</parent><scale>2.1675665378570557</scale><level>title</level><text xml:space="preserve">the end</text></Object><Object><kind>Group</kind><uid>4a228f2c-0f67-4c9a-95e7-9445dfc2bba7</uid><offset>28.75046157836914,29.7076473236084</offset><bounds>0.0,0.0,770.5821533203125,456.39617919921875</bounds><paint>255,255,255,255</paint><pinned>true</pinned><scale>0.14008484780788422</scale><transparency>0.5</transparency><label x="5.0" y="5.0" scale="1.0">group</label><open>true</open><opened-bounds>0.0,0.0,770.5821533203125,456.39617919921875</opened-bounds><closed-bounds>0.0,0.0,770.5821533203125,30.0</closed-bounds></Object><Object><kind>Text</kind><uid>34b140c8-7de1-40ae-9649-8aa495537bdf</uid><offset>100.5329818725586,51.775779724121094</offset><bounds>0.0,0.0,153.0,27.0</bounds><parent>4a228f2c-0f67-4c9a-95e7-9445dfc2bba7</parent><scale>3.6034719944000244</scale><level>text</level><text xml:space="preserve">this is a pinned clock</text></Object><Object><kind>Clock</kind><uid>633046af-ffbd-453c-a48b-b306b9e5e81d</uid><offset>89.64734649658203,134.07606506347656</offset><bounds>0.0,0.0,59.66796875,31.73828125</bounds><parent>4a228f2c-0f67-4c9a-95e7-9445dfc2bba7</parent><scale>9.740605354309082</scale><format>HH:mm</format></Object><presentation><views><view>
+        <name xml:space="preserve">title</name>
+        <x>-1066.6880063013157</x><y>459.5594013623919</y><scale>1.8900542468797994</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve">notes to a view go here</notes>
+      </view><view>
+        <name xml:space="preserve">introduction</name>
+        <x>-2025.8672934423546</x><y>-234.56480378714906</y><scale>2.1499704797442973</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">basics</name>
+        <x>-767.3063827453731</x><y>-380.7077123354892</y><scale>2.138436556663464</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">objects</name>
+        <x>-1564.072028143622</x><y>-1138.1332185677716</y><scale>2.1691774098555925</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">handle objects</name>
+        <x>-2143.02300110291</x><y>-740.7377364141132</y><scale>1.7198666129484081</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">scaling &amp; moving</name>
+        <x>391.9878179833056</x><y>-749.0250614037861</y><scale>1.9677345636627024</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">formulas</name>
+        <x>-333.8816886523109</x><y>-1159.6997290792362</y><scale>1.3614342405853677</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve">some notes to formulas</notes>
+      </view><view>
+        <name xml:space="preserve">images</name>
+        <x>678.830198837675</x><y>-1698.5084021980808</y><scale>1.1635745140418976</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">images 2</name>
+        <x>1090.5781785000895</x><y>-7068.506884735543</y><scale>4.179445354581503</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">graphs</name>
+        <x>703.8301988376757</x><y>-2185.508402198088</y><scale>1.1635745140418976</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">groups</name>
+        <x>-1049.3180809085616</x><y>-2286.858260051124</y><scale>1.3099509269618466</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">copy &amp; paste</name>
+        <x>-2988.838705390363</x><y>-4340.037517444883</y><scale>1.8614495815259033</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">links</name>
+        <x>-2880.760173023727</x><y>-2645.7243354332604</y><scale>1.3717952536253506</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">drag &amp; drop</name>
+        <x>-4662.978520984987</x><y>-3553.341495298325</y><scale>1.5832478830880063</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve">Notes to View-12</notes>
+      </view><view>
+        <name xml:space="preserve">synchronized files</name>
+        <x>-3889.3049701632945</x><y>-1720.3660244932112</y><scale>1.31416996779717</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">synchronized files 2</name>
+        <x>-5202.118269416811</x><y>-2926.5233679750936</y><scale>1.635674492627004</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">code snippets</name>
+        <x>-3091.0236969541825</x><y>-1885.773087053673</y><scale>1.814430009159878</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">codes snippets 2</name>
+        <x>-2661.2928141217662</x><y>-2042.636912295458</y><scale>1.5133974015161584</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">codes snippets 3</name>
+        <x>-2222.2928141217694</x><y>-2060.636912295458</y><scale>1.5133974015161584</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">codes snippets 4</name>
+        <x>-3819.594314562546</x><y>-1910.5172739902687</y><scale>1.6518978941262503</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">scene graph 1</name>
+        <x>-3038.716653474404</x><y>-378.96605714808993</y><scale>1.2656225154296408</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">scene graph 2</name>
+        <x>-3787.419428111074</x><y>-951.1637035664248</y><scale>1.5230459497338416</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">running of of space</name>
+        <x>-7450.917975840726</x><y>-6962.667834934347</y><scale>2.2436976002954907</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view><view>
+        <name xml:space="preserve">the end</name>
+        <x>-890.0087155806411</x><y>-2767.6665458179427</y><scale>1.0685080801741833</scale><w>1344.0</w><h>756.0</h>
+        <notes xml:space="preserve"></notes>
+      </view></views></presentation>
+    </Document>

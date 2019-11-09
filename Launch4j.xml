@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Maet\Projects\Scala\quuux\Infinity\install\Infinity.jar</jar>
+  <outfile>C:\Maet\Projects\Scala\quuux\Infinity\install\Infinity.exe</outfile>
+  <errTitle>Infinity: Java required</errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>C:\Maet\Projects\Scala\quuux\Infinity\resources\themes\default\infinity32.ico</icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <minVersion>1.7.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <initialHeapPercent>10</initialHeapPercent>
+    <maxHeapPercent>90</maxHeapPercent>
+  </jre>
+  <versionInfo>
+    <fileVersion>0.1.5.0</fileVersion>
+    <txtFileVersion>V 0.15</txtFileVersion>
+    <fileDescription>Infinity: Scientific presentations</fileDescription>
+    <copyright>Stefan Maetschke</copyright>
+    <productVersion>0.1.5.0</productVersion>
+    <txtProductVersion>V 0.15</txtProductVersion>
+    <productName>Infinity</productName>
+    <companyName></companyName>
+    <internalName>Infinity</internalName>
+    <originalFilename>Infinity.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>

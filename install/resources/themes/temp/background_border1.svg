@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="533.57501"
+   height="533.57501"
+   id="svg12215">
+  <defs
+     id="defs12217">
+    <linearGradient
+       id="linearGradient12975">
+      <stop
+         id="stop12977"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop12979"
+         style="stop-color:#d2d5d8;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter12971">
+      <feGaussianBlur
+         id="feGaussianBlur12973"
+         stdDeviation="3.2250001" />
+    </filter>
+    <linearGradient
+       x1="-113.21428"
+       y1="601.64789"
+       x2="-144.28572"
+       y2="700.20581"
+       id="linearGradient12981"
+       xlink:href="#linearGradient12975"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(4.7719882,0,0,4.7719882,896.75599,-2714.7514)" />
+  </defs>
+  <metadata
+     id="metadata12220">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sergio Luiz Araujo Silva</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>search</rdf:li>
+            <rdf:li>icons</rdf:li>
+            <rdf:li>informatic</rdf:li>
+            <rdf:li>computer</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-93.345569,-43.12826)"
+     id="layer1">
+    <rect
+       width="92.14286"
+       height="92.14286"
+       ry="12.857142"
+       x="-156.42856"
+       y="589.86206"
+       transform="matrix(4.7719883,0,0,4.7719883,896.75601,-2714.7514)"
+       id="rect12945"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.11599994;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12971);enable-background:accumulate" />
+    <rect
+       width="439.70462"
+       height="439.70462"
+       ry="61.354134"
+       x="136.64647"
+       y="83.02079"
+       id="rect12943"
+       style="color:#000000;fill:url(#linearGradient12981);fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:10.0975275;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+</svg>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="60"
+   height="60"
+   id="svg1">
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title></dc:title>
+        <dc:description />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>hash</rdf:li>
+            <rdf:li />
+            <rdf:li>action</rdf:li>
+            <rdf:li>computer</rdf:li>
+            <rdf:li>icons</rdf:li>
+            <rdf:li>theme</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org">
+            <dc:title>Danny Allen</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Danny Allen</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Danny Allen</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient900">
+      <stop
+         id="stop901"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop902"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient903"
+       xlink:href="#linearGradient900" />
+    <linearGradient
+       id="linearGradient904"
+       xlink:href="#linearGradient900" />
+    <linearGradient
+       id="linearGradient905"
+       xlink:href="#linearGradient900" />
+    <linearGradient
+       id="linearGradient906"
+       xlink:href="#linearGradient900" />
+    <linearGradient
+       id="linearGradient907"
+       xlink:href="#linearGradient900" />
+  </defs>
+  <path
+     d="m 29.366295,38.660613 6.366685,-6.858231 -3.862144,-4.166434 c -0.936277,-0.998696 -1.568264,-1.677497 -1.895961,-2.036403 -0.312093,-0.374511 -0.553964,-0.741219 -0.725615,-1.100126 -0.171651,-0.374511 -0.257476,-0.795835 -0.257476,-1.263974 0,-1.123533 0.366708,-2.052008 1.100125,-2.785425 0.733418,-0.733417 1.560462,-1.100126 2.481135,-1.100126 0.889464,0 1.591672,0.124837 2.106624,0.374511 0.514953,0.249674 1.04551,0.733417 1.591671,1.45123 l 3.979179,4.985677 3.979178,-4.985677 c 0.577371,-0.717813 1.115731,-1.201556 1.615078,-1.45123 0.499348,-0.249674 1.193754,-0.374511 2.083217,-0.374511 0.920673,0 1.747718,0.358907 2.481135,1.076719 0.733417,0.717813 1.100126,1.65409 1.100126,2.808832 0,0.468139 -0.08582,0.889463 -0.257476,1.263974 -0.171651,0.358907 -0.421325,0.725615 -0.749022,1.100126 -0.312093,0.358906 -0.936278,1.037707 -1.872555,2.036403 l -3.862144,4.166434 6.366686,6.858231 c 0.40572,0.436929 0.749022,0.91287 1.029905,1.427823 0.296488,0.499348 0.444732,1.092323 0.444732,1.778927 0,1.139137 -0.366709,2.05981 -1.100126,2.762017 -0.733417,0.686604 -1.638485,1.029905 -2.715204,1.029905 -0.702208,0 -1.279579,-0.148243 -1.732113,-0.444731 -0.436929,-0.296488 -0.967487,-0.788034 -1.591671,-1.474637 l -5.219746,-6.17943 -5.219746,6.17943 c -0.546162,0.624185 -1.061114,1.100126 -1.544857,1.427823 -0.483744,0.327697 -1.07672,0.491545 -1.778927,0.491545 -1.076719,0 -1.981787,-0.343301 -2.715204,-1.029905 -0.733418,-0.702207 -1.100126,-1.62288 -1.100126,-2.762017 0,-0.670999 0.124837,-1.240568 0.374511,-1.708707 0.265278,-0.468138 0.631987,-0.967486 1.100126,-1.498043 z"
+     id="path837"
+     style="font-size:12px;font-weight:900;fill:#e6e6e6;stroke-width:1pt;font-family:VAG Rounded Black SSi" />
+  <path
+     d="M 33.007082,7.3504808 C 15.636879,12.273026 25.489214,48.247684 9.1002611,53.05912"
+     id="path836"
+     style="fill:none;stroke:#dedede;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+</svg>

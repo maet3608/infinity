@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Sun Sep 28 19:37:40 PDT 2014
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=true
+jarname=infinity.jar
+manifest.mergeall=true
+manifest.mainclass=quuux.infinity.InfinityRunner
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

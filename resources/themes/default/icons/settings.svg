@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="409.8125"
+   height="409.8125"
+   id="svg1">
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title></dc:title>
+        <dc:description />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>engine</rdf:li>
+            <rdf:li>mecanica</rdf:li>
+            <rdf:li>engrenagem</rdf:li>
+            <rdf:li>shape</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>S  rgio Luiz Ara  jo Silva</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>S  rgio Luiz Ara  jo Silva</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3" />
+  <path
+     d="m 181.56248,5 -10.78125,83.875 c -8.38219,2.45985 -16.41537,5.72629 -23.9375,9.84374 L 79.46874,47.625 47.03124,80.0625 98.62499,146.87499 c -4.1423,7.54683 -7.40278,15.61676 -9.875,24.03126 L 5,182.40625 5,228.25 88.68749,239 c 2.46809,8.4514 5.75444,16.5465 9.90625,24.125 l -50.96875,67.21875 32.4375,32.43749 66.65624,-51.49999 c 7.59013,4.16746 15.68881,7.49137 24.15625,9.96875 l 11.5,83.56249 45.875,0 10.71875,-83.59374 c 8.46829,-2.48244 16.56639,-5.79573 24.15626,-9.96875 l 67.1875,50.93749 32.4375,-32.43749 -51.5,-66.71875 c 4.13666,-7.56755 7.41604,-15.65753 9.875,-24.09375 l 83.6875,-11.5 0,-45.875 -83.75,-10.75 c -2.47406,-8.39773 -5.79955,-16.43632 -9.9375,-23.96876 L 362.18749,79.5 329.74999,47.0625 262.87499,98.68749 C 255.35192,94.57517 247.31968,91.3299 238.93749,88.875 L 227.40624,5 181.56249,5 z m 86.69089,199.90626 c 0,34.96761 -28.37951,63.34714 -63.34714,63.34714 -34.96763,0 -63.34713,-28.37953 -63.34713,-63.34714 0,-34.96763 28.3795,-63.34717 63.34713,-63.34717 34.96764,0 63.34714,28.37954 63.34714,63.34717 z"
+     id="path908"
+     style="fill:#ececec;fill-opacity:1;fill-rule:evenodd;stroke:#646464;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+</svg>

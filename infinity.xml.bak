@@ -1,0 +1,8 @@
+<Infinity version="0.1"><Object><kind>Root</kind><uid>146173789</uid><parent>1813091578</parent><offset>-757.1751143159386,-545.6268253262881</offset><bounds>-9999.5,-9999.5,19999.0,19999.0</bounds><paint>255,255,255,255</paint><scale>2.083636181413567</scale></Object><Object><kind>Code</kind><uid>906507513</uid><parent>146173789</parent><offset>497.0,320.0</offset><bounds>0.0,0.0,384.0,126.0</bounds><code>from scipy.stats import pearsonr,spearmanr
+x = linspace(0, 10, 100)
+y = sin(x)
+plot(x,y)
+print pearsonr(x,y)
+print spearmanr(x,y)</code><syntax>python</syntax><application>Pylab</application></Object><Object><kind>Output</kind><uid>2078522970</uid><parent>906507513</parent><offset>-1.4997630716588302,155.24530092123354</offset><bounds>0.0,0.0,387.0625,37.46875</bounds><paint>255,255,200,255</paint><channel>stdout</channel><text>(-0.12067699608916038, 0.73982993435616151)
+(-0.090909090909090925, 0.80277173120716183)
+</text></Object></Infinity>

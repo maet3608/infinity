@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project Infinity with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Maet/Projects/Scala/quuux/Infinity/install/infinity.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="quuux.infinity.InfinityRunner"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ batik-anim.jar batik-awt-util.jar batik-bridge.jar batik-codec.jar batik-css.jar batik-dom.jar batik-ext.jar batik-extension.jar batik-gui-util.jar batik-gvt.jar batik-parser.jar batik-script.jar batik-svg-dom.jar batik-svggen.jar batik-transcoder.jar batik-util.jar batik-xml.jar js.jar pdf-transcoder.jar xml-apis.jar xalan-2.6.0.jar xerces_2_5_0.jar xml-apis-ext.jar bsh.jar clojure.jar clojure-jsr223.jar groovy.jar jlatexmath-0.9.6.jar jlatexmath-src-0.9.6.jar jruby.jar jsyntaxpane.jar jython.jar jna-3.4.0.jar platform-3.4.0.jar vlcj-2.0.0.jar piccolo2d-core-1.3.1.jar piccolo2d-extras-1.3.1.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="C:/Maet/Projects/Scala/quuux/Infinity/bin"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-anim.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-awt-util.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-bridge.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-codec.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-css.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-dom.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-ext.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-extension.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-gui-util.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-gvt.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-parser.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-script.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-svg-dom.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-svggen.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-transcoder.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-util.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="batik-xml.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="js.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="pdf-transcoder.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="xml-apis.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="xalan-2.6.0.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="xerces_2_5_0.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\batik\lib" includes="xml-apis-ext.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\beanshell" includes="bsh.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\clojure" includes="clojure.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\clojure" includes="clojure-jsr223.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\groovy" includes="groovy.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\jlatexmath" includes="jlatexmath-0.9.6.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\jlatexmath" includes="jlatexmath-src-0.9.6.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\jruby" includes="jruby.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\jsyntaxpane" includes="jsyntaxpane.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\jython" includes="jython.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\vlcj" includes="jna-3.4.0.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\vlcj" includes="platform-3.4.0.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\vlcj" includes="vlcj-2.0.0.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\piccolo\libs" includes="piccolo2d-core-1.3.1.jar"/>
+            <zipfileset dir="C:\Maet\Projects\Scala\libs\piccolo\libs" includes="piccolo2d-extras-1.3.1.jar"/>
+        </jar>
+    </target>
+</project>

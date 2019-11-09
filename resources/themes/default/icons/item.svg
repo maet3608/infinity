@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="1044.3987"
+   height="1014.1569"
+   id="Yes_check">
+  <metadata
+     id="metadata1375">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1373">
+    <linearGradient
+       id="linearGradient2250">
+      <stop
+         id="stop2252"
+         style="stop-color:#008700;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop2254"
+         style="stop-color:#006f00;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       cx="206.95187"
+       cy="329.383"
+       r="292.31146"
+       fx="206.95187"
+       fy="329.383"
+       id="radialGradient2256"
+       xlink:href="#linearGradient2250"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.98278,0,5.165947)" />
+  </defs>
+  <rect
+     width="308.59814"
+     height="299.82727"
+     ry="35.680759"
+     x="366.3027"
+     y="356.41394"
+     id="rect3777-4-9-1-0"
+     style="fill:#ffffff;stroke:#e1e1e1;stroke-width:37.47148895;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <rect
+     width="308.59814"
+     height="299.82727"
+     ry="35.680759"
+     x="713.37048"
+     y="356.41394"
+     id="rect3777-4-9-1-7-9"
+     style="fill:#b3b3b3;stroke:#e1e1e1;stroke-width:37.47148895;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <rect
+     width="1033.3037"
+     height="997.80823"
+     ry="35.964645"
+     x="3.9498138"
+     y="8.4549179"
+     id="rect3073"
+     style="fill:none;stroke:#e1e1e1;stroke-width:1.01171732;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none" />
+</svg>

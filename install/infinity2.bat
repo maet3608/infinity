@@ -1,0 +1,1 @@
+start javaw -mx2G -cp "infinity.jar;scala-library.jar;infinity_lib/*" quuux.infinity.InfinityRunner

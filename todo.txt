@@ -1,0 +1,164 @@
+
+0) fix cursor problem in text when zooming
+  => http://www.developer.com/java/other/article.php/3315511/Scaling-Features-in-the-JEditorPane-Component.htm
+  https://forums.oracle.com/forums/thread.jspa?threadID=1261851
+  http://j7a.ru/_glyph_painter2_8java_source.html
+  http://docs.oracle.com/javase/tutorial/i18n/text/bidi.html
+  http://www.java2s.com/Code/Java/Swing-JFC/BiDirectionalText.htm
+
+jsyntaxpane.SyntaxView extends PlainView
+
+replace PlainView by ScaledLabelView
+- replaces
+   int Utilities.drawTabbedText
+   by
+   float drawTabbedText
+
+or
+override methods in SyntaxView
+by methods implemented in ScaledLabelView
+
+
+
+1) CodeRunner
+  - create from XML
+  - serialize to XML
+  - find installed languages
+    => go for most recent installation <= time stamp of executable
+    => enable/show menu items accordingly
+
+2) Installer	
+
+
+4) youtube tutorials / python course
+   ( Trailblazer?, ITEE presentation, Enthought Distribution)
+   
+5) Infinity 2.0
+
+	
+- when loading and linked file is missing then print error but do not cancel loading
+
+- Helperlines are lagging when scene graph is complex
+    => replace by xor <= tricky with zooming/dragging => remove helperlines and redraw
+    http://www.java2s.com/Code/JavaAPI/java.awt/GraphicssetXORModeColorcl.htm
+    http://www.dreamincode.net/forums/topic/105055-what-setxormode-will-do-in-the-following-piece-of-code/
+    http://java.comsci.us/examples/awt/graphics/setXORMode.html
+
+
+- selection of text section in ICode element does work only properly when text has just been edited
+  for newly created code selection jumps to beginning
+  => problem with focus?
+
+- copy of IMenu(xml) doesn't work
+
+- "layout manager" for IOutput
+   => should follow bottom of code bounds
+   => should always be below code if underneath
+   => update position when code bounds changes
+
+- depending on OS enable/disable certain functions
+  - open links - only windows
+
+
+- links
+  - show icon/arrow?
+
+
+- improve kinetic dragging, zooming, scrolling
+
+- replace XML properties of an IObject by an abstract features concept (key:value:type) (or yaml)
+  => create output and input formats from that
+  => support inheritance
+  => describe a presentation by IObjects with their features  => presentation data structure
+  => implement UNDO by storing differentials of the presentation data structures
+
+- implement scalable editor with syntax highlighting (not using swing)
+  => http://java-sl.com/Scale_In_JEditorPane.html
+  => http://www.duncanjauncey.com/btinternet/zoomdesk/download.html
+
+- improve home button
+  - set home position
+
+- kinetic zooming with page up/down buttons
+
+- slider/navigator
+
+- focus/clipping selection rect
+  => all objects within selection objects are zoomed to fit on screen,
+  all other objects are hidden
+
+- icons for file objects
+  Icon ico = FileSystemView.getFileSystemView().getSystemIcon(file);
+  Image image = ((ImageIcon) ico).getImage();
+
+- spell checking:
+  http://jortho.sourceforge.net/
+
+- animation
+  => translation, scaling to a node/node group <= parent nodes = container
+  => definition of animation order
+
+- save, load as zip-file
+
+- UNDO
+  http://www.processworks.de/blog/2009/08/add-undoredo-functionality-to-a-java-app
+  http://stackoverflow.com/questions/2429548/object-serialization-for-undo-redo-functionality-java
+
+- JSON instead of XML as format
+  http://www.rojotek.com/blog/2009/05/07/a-review-of-5-java-json-libraries/
+  http://stackoverflow.com/questions/338586/a-better-java-json-library
+  (YAML also possible)
+
+- scalable Graphics2D editor => replace Swing
+  give to: http://www.freelancer.com ?
+
+- z-writing (semantic text zooming)
+  http://zoomimagine.com/AboutProject.html
+
+
+CodeEnvironment
+  variables:Map[String,String]
+  (e.g.  name, path, prefix, type(JVM,CMD), icon path ,...)
+  
+
+CodeRunner
+  run(code, env:CodeEnvironment)
+  
+codeRunnerJVM extends CodeRunner
+  (Jython, Clojure, Scala, ...)
+  
+codeRunnerCMD extends CodeRunner
+  (CPython, Pylab, Perl, Haskell)
+  
+codeRunnerInternal extend CodeRunner
+  (Java, Scala?)
+  
+  
+References
+- Parser
+  http://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/  
+
+
+
+TIPS
+----
+
+COORDINATE TRANSFORMATION
+-------------------------
+canvas.getLayer.globalToLocal
+canvas.getLayer.localToGlobal
+canvas.getLayer.localToParent
+
+canvas.getCamera.globalToLocal
+canvas.getCamera.localToGlobal
+canvas.getCamera.localToParent
+
+canvas.getLayer.localToGlobal(position)
+canvas.getCamera.localToView(position)
+
+canvasToLocal
+localToCanvas
+
+canvas.getMousePosition()  //can return null
+
+

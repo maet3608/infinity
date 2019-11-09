@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="190.49483"
+   height="190.49483"
+   id="svg2"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="clock.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1189"
+     inkscape:window-height="761"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="1.2493154"
+     inkscape:cx="148.07789"
+     inkscape:cy="94.046745"
+     inkscape:window-x="106"
+     inkscape:window-y="88"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g3835-3"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs4">
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter4313">
+      <feGaussianBlur
+         id="feGaussianBlur4315"
+         stdDeviation="1.1436592" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter4321">
+      <feGaussianBlur
+         id="feGaussianBlur4323"
+         stdDeviation="1.7594757" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g3835-3"
+     transform="translate(-161.05196,-710.02125)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#cccccc;fill-opacity:1;stroke:#d2d2d2;stroke-width:4.48904085;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3607-3-18"
+       d="m 261.04795,823.3114 11.39837,-13.48221 -74.10443,-45.67293 62.70606,59.15514 z" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0;fill:#cccccc;fill-opacity:1;stroke:#e6bebe;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3763"
+       sodipodi:cx="68.037262"
+       sodipodi:cy="53.229153"
+       sodipodi:rx="44.824551"
+       sodipodi:ry="37.220387"
+       d="m 112.86181,53.229153 c 0,20.556252 -20.068632,37.220386 -44.824548,37.220386 -24.755916,0 -44.824551,-16.664134 -44.824551,-37.220386 0,-20.556252 20.068635,-37.220387 44.824551,-37.220387 24.755916,0 44.824548,16.664135 44.824548,37.220387 z"
+       transform="translate(160.64701,712.0176)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#cccccc;stroke-width:15.49871159;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3769"
+       sodipodi:cx="114.46268"
+       sodipodi:cy="96.052605"
+       sodipodi:rx="84.046028"
+       sodipodi:ry="84.046028"
+       d="m 198.50871,96.052605 c 0,46.417335 -37.62869,84.046025 -84.04603,84.046025 -46.417343,0 -84.046031,-37.62869 -84.046031,-84.046025 0,-46.41734 37.628688,-84.046028 84.046031,-84.046028 46.41734,0 84.04603,37.628688 84.04603,84.046028 z"
+       transform="matrix(1.0376057,0,0,1.0376057,137.53225,705.60393)" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#cccccc;fill-opacity:1;stroke:#d2d2d2;stroke-width:3.1827507;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3607-3-18-1"
+       d="m 265.85631,817.48952 -7.49007,-10.31375 48.69524,-34.93936 -41.20517,45.25311 z" />
+  </g>
+</svg>
